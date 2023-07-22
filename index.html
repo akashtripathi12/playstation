@@ -11,7 +11,7 @@
         <div class="navbar">
             <a href="https://www.playstation.com/en-in/" target="_blank"><img src="logo.png" class="logo"></a>
             <nav>
-                <ul id="menuList">
+                <ul id="menulist">
                     <li><a href="https://www.playstation.com/en-in/accessories/dualsense-wireless-controller/" target="_blank">Game Controllers</a></li>
                     <li><a href="https://www.playstation.com/en-in/accessories/" target="_blank">Accessories</a></li>
                     <li><a href="https://www.playstation.com/en-in/accessories/media-remote/" target="_blank">Media Remotes</a></li>
@@ -45,19 +45,19 @@
         </div>
     </div>
     <script>
-        var menuList = document.getElementById("menuList");
+        var menulist = document.getElementById("menulist");
         
-        menuList.style.maxHeight == "0px";
+        menulist.style.maxHeight = "0px";
         
         function togglemenu() {
             
-            if( menuList.style.maxHeight == "0px")
+            if( menulist.style.maxHeight == "0px")
                 {
-                    menuList.style.maxHeight = "160px";
+                    menulist.style.maxHeight = "160px";
                 }
             else
                 {
-                    menuList.style.maxHeight = "0px";
+                    menulist.style.maxHeight = "0px";
                 }
         }
     </script>
