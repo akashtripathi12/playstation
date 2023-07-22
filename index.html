@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="https://www.playstation.com/en-in/" target="_blank"><img src="logo.png" class="logo"></a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="https://www.playstation.com/en-in/accessories/dualsense-wireless-controller/" target="_blank">Game Controllers</a></li>
+                    <li><a href="https://www.playstation.com/en-in/accessories/" target="_blank">Accessories</a></li>
+                    <li><a href="https://www.playstation.com/en-in/accessories/media-remote/" target="_blank">Media Remotes</a></li>
+                    <li><a href="https://www.playstation.com/en-in/ps5/" target="_blank">Others</a></li>
+                    <li><a href="https://www.linkedin.com/in/akash-tripathi-433171253" target="_blank">Contact Me</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS5 V2<br>DualSense Edge</h2>
+                <h3>Wireless Controller for Playstation</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>Rs.5699/-</h4>
+                <a href="https://www.amazon.in/Sony-CFI-ZCT1W-DualSense-wireless-controller/dp/B08GZ6QNTC/ref=sr_1_1?keywords=ps5+dualsense+controller&sr=8-1" target="_blank"><button type="button">Buy Now<img src="arrow.png"></button></a>
+            </div>
+            <div class="col-2">
+                <img src="controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="add.png">
+                    <a href="https://www.amazon.in/Sony-CFI-ZCT1W-DualSense-wireless-controller/dp/B08GZ6QNTC/ref=sr_1_1?keywords=ps5+dualsense+controller&sr=8-1" target="_blank"><p><small>Add to Cart</small></p></a>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/playstation/" target="_blank"><img src="fb.png"></a>
+            <a href="https://www.instagram.com/PlayStation/" target="_blank"><img src="ig.png"></a>
+            <a href="https://twitter.com/playstationin?lang=en" target="_blank"><img src="tw.png"></a>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight == "0px";
+        function togglemenu() {
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "160px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
