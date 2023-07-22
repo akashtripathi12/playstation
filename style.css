@@ -169,6 +169,7 @@ button:hover{
     #menuList {
         overflow: hidden;
         transition: 0.5s;
+        
     }
     .row {
         flex-direction: column-reverse;
